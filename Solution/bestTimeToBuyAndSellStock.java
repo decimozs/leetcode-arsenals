@@ -4,6 +4,7 @@ class Solution {
         int minVal = Integer.MAX_VALUE;
         int maxVal = 0;
 
+        // loop trough the array of prices or the day
         for (int i = 0; i < prices.length; i++) {
             // check if the iterating index of prices is less than to the min value
             if (prices[i] < minVal) {

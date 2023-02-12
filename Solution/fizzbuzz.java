@@ -5,7 +5,7 @@ class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> list = new ArrayList<>();
 
-        // iterate over the given number.
+        // loop over or iterate over the given number.
         for (int i = 1; i <= n; i++) {
             // if the iteration index is divisible by 15 then it will print fizzbuzz
             if (i % 15 == 0) {
