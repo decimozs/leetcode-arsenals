@@ -19,7 +19,7 @@ class solution {
         }
     }
 
-    // just how stack works, we should pop the recent date elements in the data structure
+    // just how stack works, we should pop the recent data elements in the data structure
     public int pop() {
         return queue.remove();
     }
