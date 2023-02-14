@@ -1,6 +1,6 @@
 import java.util.*;
 
-class MyQueue {
+class Solution {
 
     Stack<Integer> stack1 = new Stack<>();
     Stack<Integer> stack2 = new Stack<>();
